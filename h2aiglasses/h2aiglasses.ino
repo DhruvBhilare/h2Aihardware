@@ -7,17 +7,17 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials
-const char* ssid = "Dhruvsiphone";
-const char* password = "88048123";
+const char* ssid = "";
+const char* password = "";
 
 // Google API key
-const String apiKey = "AIzaSyCJDaVsB7VDmLH0nAmtSfnqL2f-jwPzXaM";  // Replace with your Google API key
-String PromptA = "Grade (out of 100) this serial seven subtraction starting from 50 from the Montreal Cognitive Assessment";  // Prompt A
-String PromptB = "Grade (out of 100) this clock drawing test result for 9:00 from the Montreal Cognitive Assessment";  // Prompt B
+const String apiKey = "";  // Replace with your Google API key
+String PromptA = "";  // Prompt A
+String PromptB = "";  // Prompt B
 String currentPrompt = PromptA;  // Default prompt
 
 // Firebase credentials
-const String firebaseHost = "https://esp32demo-955b3-default-rtdb.firebaseio.com/";  // Replace with your Firebase Realtime Database URL
+const String firebaseHost = "";  // Replace with your Firebase Realtime Database URL
 
 // Web server
 WebServer server(80);
