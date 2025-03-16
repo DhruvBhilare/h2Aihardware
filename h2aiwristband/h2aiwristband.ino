@@ -6,12 +6,12 @@
 #include <LiquidCrystal_I2C.h>  // Include the I2C LCD library
 
 // Replace with your WiFi credentials
-const char* ssid = "Aryansiphone";
-const char* password = "password";
+const char* ssid = "";
+const char* password = "";
 
 // Firebase configuration
-#define FIREBASE_HOST "https://esp32demo-955b3-default-rtdb.firebaseio.com/" // Replace with your Firebase host
-#define API_KEY "AIzaSyDQqXeoXC39yQC1NE9VlmzPvaN58FrAki8"       // Replace with your Firebase API key
+#define FIREBASE_HOST "" // Replace with your Firebase host
+#define API_KEY ""       // Replace with your Firebase API key
 
 // DHT11 configuration
 #define DHTPIN 4     // Digital pin connected to the DHT sensor
